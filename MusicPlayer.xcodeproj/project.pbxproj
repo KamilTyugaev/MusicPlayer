@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B695502798A310004B46B5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6954F2798A310004B46B5 /* RegistrationViewController.swift */; };
 		00BD901B279733EB00E5AB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901A279733EB00E5AB97 /* AppDelegate.swift */; };
 		00BD901D279733EB00E5AB97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901C279733EB00E5AB97 /* SceneDelegate.swift */; };
 		00BD901F279733EB00E5AB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901E279733EB00E5AB97 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B6954F2798A310004B46B5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		00BD9017279733EB00E5AB97 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BD901A279733EB00E5AB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00BD901C279733EB00E5AB97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +37,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00B6954927989F71004B46B5 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				00BD901A279733EB00E5AB97 /* AppDelegate.swift */,
+				00BD901C279733EB00E5AB97 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		00B6954B27989F81004B46B5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		00BD900E279733EB00E5AB97 = {
 			isa = PBXGroup;
 			children = (
@@ -54,9 +72,10 @@
 		00BD9019279733EB00E5AB97 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				00BD901A279733EB00E5AB97 /* AppDelegate.swift */,
-				00BD901C279733EB00E5AB97 /* SceneDelegate.swift */,
 				00BD901E279733EB00E5AB97 /* ViewController.swift */,
+				00B6954F2798A310004B46B5 /* RegistrationViewController.swift */,
+				00B6954B27989F81004B46B5 /* Controller */,
+				00B6954927989F71004B46B5 /* Delegate */,
 				00BD9023279733EC00E5AB97 /* Assets.xcassets */,
 				00BD9025279733EC00E5AB97 /* LaunchScreen.storyboard */,
 				00BD9028279733EC00E5AB97 /* Info.plist */,
@@ -136,6 +155,7 @@
 				00BD901F279733EB00E5AB97 /* ViewController.swift in Sources */,
 				00BD901B279733EB00E5AB97 /* AppDelegate.swift in Sources */,
 				00BD901D279733EB00E5AB97 /* SceneDelegate.swift in Sources */,
+				00B695502798A310004B46B5 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
