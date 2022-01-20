@@ -13,6 +13,8 @@
 		00BD901F279733EB00E5AB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901E279733EB00E5AB97 /* ViewController.swift */; };
 		00BD9024279733EC00E5AB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BD9023279733EC00E5AB97 /* Assets.xcassets */; };
 		00BD9027279733EC00E5AB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BD9025279733EC00E5AB97 /* LaunchScreen.storyboard */; };
+		00E1298C2799AA3400C1F945 /* SearchAlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1298B2799AA3400C1F945 /* SearchAlbumController.swift */; };
+		00E129902799D8AA00C1F945 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		00BD9023279733EC00E5AB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00BD9026279733EC00E5AB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00BD9028279733EC00E5AB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E1298B2799AA3400C1F945 /* SearchAlbumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlbumController.swift; sourceTree = "<group>"; };
+		00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,9 @@
 			children = (
 				00BD901E279733EB00E5AB97 /* ViewController.swift */,
 				00B6954F2798A310004B46B5 /* RegistrationViewController.swift */,
+				00E1298B2799AA3400C1F945 /* SearchAlbumController.swift */,
+				00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */,
+				00E129882799A92100C1F945 /* Model */,
 				00B6954B27989F81004B46B5 /* Controller */,
 				00B6954927989F71004B46B5 /* Delegate */,
 				00BD9023279733EC00E5AB97 /* Assets.xcassets */,
@@ -81,6 +88,13 @@
 				00BD9028279733EC00E5AB97 /* Info.plist */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		00E129882799A92100C1F945 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +166,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00E129902799D8AA00C1F945 /* ProfileViewController.swift in Sources */,
+				00E1298C2799AA3400C1F945 /* SearchAlbumController.swift in Sources */,
 				00BD901F279733EB00E5AB97 /* ViewController.swift in Sources */,
 				00BD901B279733EB00E5AB97 /* AppDelegate.swift in Sources */,
 				00BD901D279733EB00E5AB97 /* SceneDelegate.swift in Sources */,

@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         button.tintColor = .black
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 15)
         button.layer.cornerRadius = 15
-//        button.addTarget(self, action: Selector, for: <#T##UIControl.Event#>)
+        button.addTarget(self, action: #selector(goToInSearchAlbumWithSignUpButtonTapped), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
     }()
@@ -100,13 +100,15 @@ class ViewController: UIViewController {
         view.addSubview(labelLogin)
     }
     //selector для кнопки входа в приложение после ввода логина и пароля
+    @objc private func goToInSearchAlbumWithSignUpButtonTapped(){
+        let searchAlbumTableController = SearchAlbumController()
+        navigationController?.pushViewController(searchAlbumTableController, animated: true)
+    }
+    //selector для кнопки регистрации
     @objc private func goToSceneWithSignInButtonTapped(){
         let registrationViewController = RegistrationViewController()
         navigationController?.pushViewController(registrationViewController, animated: true)
-        
     }
-    //selector для кнопки регистрации
-
     
     //Констрейнты
     private func setupConstrains(){
