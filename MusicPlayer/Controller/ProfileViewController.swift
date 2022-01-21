@@ -15,9 +15,11 @@ class ProfileViewController: UIViewController {
         setupViews()
         setupConstraints()
     }
+    
+//    private let first
     // Title label
-    let musicPlayerLabel:UILabel = {
-        var label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+   private let musicPlayerLabel:UILabel = {
+        var label = UILabel()
         label.text = "🎧𝙈usic 𝙋layer🎧"
         label.textColor = .white
         label.textAlignment = .center
@@ -25,8 +27,8 @@ class ProfileViewController: UIViewController {
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
-    let profilLabel:UILabel = {
-        var label = UILabel(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
+    private let profilLabel:UILabel = {
+        var label = UILabel()
         label.text = "General information"
         label.textColor = .black
         label.textAlignment = .center
@@ -50,14 +52,17 @@ class ProfileViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    //констрейнты
     private func setupConstraints(){
+        // 1 Заголовок MusicPlayer
         NSLayoutConstraint.activate([
             musicPlayerLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             musicPlayerLabel.topAnchor.constraint(equalTo: view.topAnchor,constant: 150),
             musicPlayerLabel.heightAnchor.constraint(equalToConstant: 50),
             musicPlayerLabel.widthAnchor.constraint(equalToConstant: 200)
         ])
+        // 2 label( Основная информация о профилe)
         NSLayoutConstraint.activate([
             profilLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             profilLabel.topAnchor.constraint(equalTo: musicPlayerLabel.topAnchor,constant: 150),

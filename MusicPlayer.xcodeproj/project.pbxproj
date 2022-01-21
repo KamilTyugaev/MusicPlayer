@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B695502798A310004B46B5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6954F2798A310004B46B5 /* RegistrationViewController.swift */; };
+		00B695502798A310004B46B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6954F2798A310004B46B5 /* SignUpViewController.swift */; };
+		00BBF084279AA8C300E6D9B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF083279AA8C300E6D9B4 /* DetailViewController.swift */; };
+		00BBF088279AA91E00E6D9B4 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF087279AA91E00E6D9B4 /* AlbumViewController.swift */; };
+		00BBF08C279AAA0400E6D9B4 /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF08B279AAA0400E6D9B4 /* AlbumsTableViewCell.swift */; };
+		00BBF08F279AAA3600E6D9B4 /* SongsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF08E279AAA3600E6D9B4 /* SongsCollectionViewCell.swift */; };
+		00BBF092279AAA8300E6D9B4 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF091279AAA8300E6D9B4 /* UIStackView + Extension.swift */; };
+		00BBF095279AAAA300E6D9B4 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF094279AAAA300E6D9B4 /* UIViewController + Extension.swift */; };
 		00BD901B279733EB00E5AB97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901A279733EB00E5AB97 /* AppDelegate.swift */; };
 		00BD901D279733EB00E5AB97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901C279733EB00E5AB97 /* SceneDelegate.swift */; };
-		00BD901F279733EB00E5AB97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901E279733EB00E5AB97 /* ViewController.swift */; };
+		00BD901F279733EB00E5AB97 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BD901E279733EB00E5AB97 /* AuthViewController.swift */; };
 		00BD9024279733EC00E5AB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00BD9023279733EC00E5AB97 /* Assets.xcassets */; };
 		00BD9027279733EC00E5AB97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BD9025279733EC00E5AB97 /* LaunchScreen.storyboard */; };
-		00E1298C2799AA3400C1F945 /* SearchAlbumController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1298B2799AA3400C1F945 /* SearchAlbumController.swift */; };
 		00E129902799D8AA00C1F945 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00B6954F2798A310004B46B5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		00B6954F2798A310004B46B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		00BBF083279AA8C300E6D9B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		00BBF087279AA91E00E6D9B4 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		00BBF08B279AAA0400E6D9B4 /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
+		00BBF08E279AAA3600E6D9B4 /* SongsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsCollectionViewCell.swift; sourceTree = "<group>"; };
+		00BBF091279AAA8300E6D9B4 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		00BBF094279AAAA300E6D9B4 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		00BD9017279733EB00E5AB97 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00BD901A279733EB00E5AB97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00BD901C279733EB00E5AB97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00BD901E279733EB00E5AB97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00BD901E279733EB00E5AB97 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		00BD9023279733EC00E5AB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00BD9026279733EC00E5AB97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00BD9028279733EC00E5AB97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E1298B2799AA3400C1F945 /* SearchAlbumController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAlbumController.swift; sourceTree = "<group>"; };
 		00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -53,8 +63,41 @@
 		00B6954B27989F81004B46B5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				00BBF080279AA72800E6D9B4 /* Cell */,
+				00BD901E279733EB00E5AB97 /* AuthViewController.swift */,
+				00B6954F2798A310004B46B5 /* SignUpViewController.swift */,
+				00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */,
+				00BBF087279AA91E00E6D9B4 /* AlbumViewController.swift */,
+				00BBF083279AA8C300E6D9B4 /* DetailViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		00BBF080279AA72800E6D9B4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				00BBF08B279AAA0400E6D9B4 /* AlbumsTableViewCell.swift */,
+				00BBF08E279AAA3600E6D9B4 /* SongsCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		00BBF081279AA75500E6D9B4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				00BBF091279AAA8300E6D9B4 /* UIStackView + Extension.swift */,
+				00BBF094279AAAA300E6D9B4 /* UIViewController + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		00BBF082279AA81100E6D9B4 /* Resourtion */ = {
+			isa = PBXGroup;
+			children = (
+				00BD9025279733EC00E5AB97 /* LaunchScreen.storyboard */,
+				00BD9023279733EC00E5AB97 /* Assets.xcassets */,
+			);
+			path = Resourtion;
 			sourceTree = "<group>";
 		};
 		00BD900E279733EB00E5AB97 = {
@@ -76,25 +119,13 @@
 		00BD9019279733EB00E5AB97 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				00BD901E279733EB00E5AB97 /* ViewController.swift */,
-				00B6954F2798A310004B46B5 /* RegistrationViewController.swift */,
-				00E1298B2799AA3400C1F945 /* SearchAlbumController.swift */,
-				00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */,
-				00E129882799A92100C1F945 /* Model */,
-				00B6954B27989F81004B46B5 /* Controller */,
-				00B6954927989F71004B46B5 /* Delegate */,
-				00BD9023279733EC00E5AB97 /* Assets.xcassets */,
-				00BD9025279733EC00E5AB97 /* LaunchScreen.storyboard */,
 				00BD9028279733EC00E5AB97 /* Info.plist */,
+				00BBF082279AA81100E6D9B4 /* Resourtion */,
+				00B6954927989F71004B46B5 /* Delegate */,
+				00B6954B27989F81004B46B5 /* Controller */,
+				00BBF081279AA75500E6D9B4 /* Extension */,
 			);
 			path = MusicPlayer;
-			sourceTree = "<group>";
-		};
-		00E129882799A92100C1F945 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +197,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BBF095279AAAA300E6D9B4 /* UIViewController + Extension.swift in Sources */,
 				00E129902799D8AA00C1F945 /* ProfileViewController.swift in Sources */,
-				00E1298C2799AA3400C1F945 /* SearchAlbumController.swift in Sources */,
-				00BD901F279733EB00E5AB97 /* ViewController.swift in Sources */,
+				00BD901F279733EB00E5AB97 /* AuthViewController.swift in Sources */,
 				00BD901B279733EB00E5AB97 /* AppDelegate.swift in Sources */,
+				00BBF092279AAA8300E6D9B4 /* UIStackView + Extension.swift in Sources */,
+				00BBF08C279AAA0400E6D9B4 /* AlbumsTableViewCell.swift in Sources */,
 				00BD901D279733EB00E5AB97 /* SceneDelegate.swift in Sources */,
-				00B695502798A310004B46B5 /* RegistrationViewController.swift in Sources */,
+				00BBF08F279AAA3600E6D9B4 /* SongsCollectionViewCell.swift in Sources */,
+				00B695502798A310004B46B5 /* SignUpViewController.swift in Sources */,
+				00BBF084279AA8C300E6D9B4 /* DetailViewController.swift in Sources */,
+				00BBF088279AA91E00E6D9B4 /* AlbumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
