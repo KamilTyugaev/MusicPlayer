@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B695502798A310004B46B5 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6954F2798A310004B46B5 /* SignUpViewController.swift */; };
+		00B695502798A310004B46B5 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6954F2798A310004B46B5 /* RegistrationViewController.swift */; };
 		00BBF084279AA8C300E6D9B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF083279AA8C300E6D9B4 /* DetailViewController.swift */; };
 		00BBF088279AA91E00E6D9B4 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF087279AA91E00E6D9B4 /* AlbumViewController.swift */; };
 		00BBF08C279AAA0400E6D9B4 /* AlbumsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BBF08B279AAA0400E6D9B4 /* AlbumsTableViewCell.swift */; };
@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00B6954F2798A310004B46B5 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		00B6954F2798A310004B46B5 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		00BBF083279AA8C300E6D9B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		00BBF087279AA91E00E6D9B4 /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
 		00BBF08B279AAA0400E6D9B4 /* AlbumsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsTableViewCell.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 			children = (
 				00BBF080279AA72800E6D9B4 /* Cell */,
 				00BD901E279733EB00E5AB97 /* AuthViewController.swift */,
-				00B6954F2798A310004B46B5 /* SignUpViewController.swift */,
+				00B6954F2798A310004B46B5 /* RegistrationViewController.swift */,
 				00E1298F2799D8AA00C1F945 /* ProfileViewController.swift */,
 				00BBF087279AA91E00E6D9B4 /* AlbumViewController.swift */,
 				00BBF083279AA8C300E6D9B4 /* DetailViewController.swift */,
@@ -205,7 +205,7 @@
 				00BBF08C279AAA0400E6D9B4 /* AlbumsTableViewCell.swift in Sources */,
 				00BD901D279733EB00E5AB97 /* SceneDelegate.swift in Sources */,
 				00BBF08F279AAA3600E6D9B4 /* SongsCollectionViewCell.swift in Sources */,
-				00B695502798A310004B46B5 /* SignUpViewController.swift in Sources */,
+				00B695502798A310004B46B5 /* RegistrationViewController.swift in Sources */,
 				00BBF084279AA8C300E6D9B4 /* DetailViewController.swift in Sources */,
 				00BBF088279AA91E00E6D9B4 /* AlbumViewController.swift in Sources */,
 			);

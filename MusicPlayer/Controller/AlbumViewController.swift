@@ -7,15 +7,14 @@
 
 import UIKit
 
-class AlbumViewController: UIViewController {
+class AlbumsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = #colorLiteral(red: 0, green: 0.9914394021, blue: 1, alpha: 1)
         title = "Albums"
-        profileImageForNavigationBar()
     }
-    
+ /*
     private func profileImageForNavigationBar(){
         let buttonForNavigatorBar = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
@@ -31,5 +30,5 @@ class AlbumViewController: UIViewController {
         let profilController = ProfileViewController()
         navigationController?.pushViewController(profilController, animated: true)
     }
-
+*/
 }
