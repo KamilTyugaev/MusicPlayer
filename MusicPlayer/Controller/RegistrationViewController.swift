@@ -40,7 +40,7 @@ class RegistrationViewController: UIViewController {
     // label для вывода ошибки при валидации для firstName
     private let firstNameValidLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 9)
+        label.font = UIFont.boldSystemFont(ofSize: 13)
         label.text = "Required field"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -60,7 +60,7 @@ class RegistrationViewController: UIViewController {
     // label для вывода ошибки при валидации для second Name
     private let secondNameValidLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 9)
+        label.font = UIFont.boldSystemFont(ofSize: 13)
         label.text = "Required field"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -69,7 +69,7 @@ class RegistrationViewController: UIViewController {
     // label для вывода ошибки при валидации для datePicker
     private let dateValidLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 9)
+        label.font = UIFont.boldSystemFont(ofSize: 13)
         label.text = "Required field"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -89,7 +89,7 @@ class RegistrationViewController: UIViewController {
     // label для вывода ошибки при валидации для phone
     private let phoneValidLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 9)
+        label.font = UIFont.boldSystemFont(ofSize: 13)
         label.text = "Required field"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -109,7 +109,7 @@ class RegistrationViewController: UIViewController {
     // label для вывода ошибки при валидации для email
     private let emailValidLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 9)
+        label.font = UIFont.boldSystemFont(ofSize: 13)
         label.text = "Required field"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -130,7 +130,7 @@ class RegistrationViewController: UIViewController {
     // label для вывода ошибки при валидации для password
     private let passwordValidLabel:UILabel = {
         let label = UILabel()
-        label.font = UIFont.boldSystemFont(ofSize: 10)
+        label.font = UIFont.boldSystemFont(ofSize: 13)
         label.text = "Required field"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
@@ -140,7 +140,7 @@ class RegistrationViewController: UIViewController {
     //в базу данных(пока только не вып-ет само сохранение но это временно )
     private let signUpButton:UIButton = {
         var button = UIButton(type: .system)
-        button.setTitle("Sign in", for: .normal)
+        button.setTitle("SignUp", for: .normal)
         button.tintColor = .black
         button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 17)
         button.backgroundColor = #colorLiteral(red: 1, green: 0.5763723254, blue: 0, alpha: 1)
@@ -256,11 +256,6 @@ extension RegistrationViewController {
             elementsStackView.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor, constant: 20),
             elementsStackView.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor, constant: -20)
         ])
-//        NSLayoutConstraint.activate([
-//            passwordValidLabel.bottomAnchor.constraint(equalTo: signUpButton.topAnchor, constant: -10),
-//            passwordValidLabel.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor,constant: 20),
-//
-//        ])
         NSLayoutConstraint.activate([
             firstNameTextField.heightAnchor.constraint(equalToConstant: 30),
             secondNameTextField.heightAnchor.constraint(equalToConstant: 30),
@@ -269,12 +264,10 @@ extension RegistrationViewController {
             emailTextField.heightAnchor.constraint(equalToConstant: 30),
             passwordTextField.heightAnchor.constraint(equalToConstant: 30)
         ])
-    
         NSLayoutConstraint.activate([
             labelRegistration.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor),
             labelRegistration.bottomAnchor.constraint(equalTo: elementsStackView.topAnchor, constant: -30),
         ])
-        
         NSLayoutConstraint.activate([
             signUpButton.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor),
             signUpButton.topAnchor.constraint(equalTo: elementsStackView.bottomAnchor, constant: 30),

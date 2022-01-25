@@ -171,7 +171,7 @@ extension AuthViewController {
         // StackTextField[email,password]
         NSLayoutConstraint.activate([
             textFieldStackView.centerXAnchor.constraint(equalTo: backgroundView.centerXAnchor),
-            textFieldStackView.topAnchor.constraint(equalTo: labelLogin.topAnchor,constant: 100),
+            textFieldStackView.topAnchor.constraint(equalTo: labelLogin.topAnchor,constant: 70),
             textFieldStackView.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor,constant: 40),
             textFieldStackView.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor,constant: -40),
         ])
@@ -198,7 +198,7 @@ extension AuthViewController {
         //StackButton [signInButton,signUpButton]
         NSLayoutConstraint.activate([
             buttonsStackView.leadingAnchor.constraint(equalTo: backgroundView.leadingAnchor, constant: 20),
-            buttonsStackView.bottomAnchor.constraint(equalTo: textFieldStackView.bottomAnchor,constant: 150),
+            buttonsStackView.bottomAnchor.constraint(equalTo: textFieldStackView.bottomAnchor,constant: 100),
             buttonsStackView.trailingAnchor.constraint(equalTo: backgroundView.trailingAnchor, constant: -20)
         ])
     }
